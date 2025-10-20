@@ -11,6 +11,19 @@ We created a high-performance ASCII animation component that:
 - Respects user motion preferences
 - Pauses when window loses focus
 
+## Prerequisites
+
+To generate ASCII frames, you need **ImageMagick** installed on your machine:
+
+- **macOS:**  
+  ```bash
+  brew install imagemagick
+- **Linux:**  
+  ```bash
+  sudo apt install imagemagick
+- **Windows:**  
+You can download ImageMagick here: https://imagemagick.org/script/download.php
+
 ## Step 1: Convert Video to ASCII Frames
 
 ### 1.1 Create ASCII Conversion Script
